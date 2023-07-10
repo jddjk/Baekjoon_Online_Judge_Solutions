@@ -1,0 +1,5 @@
+number = input()
+digits = list(str(number))
+digits.sort(reverse=True)
+result = int(''.join(digits))
+print(result)
